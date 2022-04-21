@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--<p th:text="'Greetings' + ${name} + '! Your family name is ' + ${lastName} + '. You are ' + ${age} + ' years old.' " />-->
+<h1>Please enter your userId</h1>
+<form action=`/customer/information${id}` method ="post">
+    <input type="number" name="id"><br>
+    <input type="submit" value="login">
+</form>
+</body>
+</html>

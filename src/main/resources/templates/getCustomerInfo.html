@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p th:text=" ${customer}"></p>
+<p th:text="'Greetings' + ${customer[firstName]} + '! Your family name is ' + ${customer[lastName()]} + '. You are ' + ${customer[age]} + ' years old.' "></p>
+</body>
+</html>
